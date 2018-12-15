@@ -17,7 +17,7 @@ addTags('main','div','id','container');
  *  add('#wrapper', 'main');
  */
      
-    fetch('http://46.101.146.101:8081/universities/')
+    fetch('https://46.101.146.101:8081/universities/')
         .then(response => response.json())
         .then(responseJSON => {
             console.log(responseJSON);
