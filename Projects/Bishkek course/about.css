@@ -3,23 +3,25 @@
 
 .wrapper {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	flex-direction: row;
 	margin: 0px auto;
-	max-width: 1350px;
+	max-width: 100%;
 	width: 100%;
 }
 
 .header {
-	flex:1 1 15%;
+	flex:1 1 20%;
 	background: red;
+	float: left;
 }
 
 .detailed {
-	flex:5 1 85%;
+	flex:5 1 80%;
 	background-color: #BEBEBE;
 	display: flex;
 	flex-direction: column;
+	float: right;
 }
 
 .about {
