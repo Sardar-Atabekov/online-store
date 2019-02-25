@@ -12,7 +12,6 @@
 </head>
 <body>
 	<div id="wrapper">
-		<header> </header>
 		<main> </main>
 	</div>
 	<script crossorigin src="https://unpkg.com/react@15/dist/react.js"></script>
@@ -61,6 +60,17 @@ class App extends React.Component {
    	}
 
     return (
+    <div>
+    <div className="logo_neobis-block">
+    	<img className="logo_neobis" src="neobis_logo.png" />
+    </div>
+    <div className="search_block">
+        <input className="search_input" type="search" placeholder="Поиск курса"/>
+			<a href="https://www.google.com/"> 
+				<button className="request-btn"> Заявка </button>
+			</a>
+            <h1 className="result-search">Курсы по запросу</h1>
+    </div>
       <div id='container'>
         {data.map(data  =>
           <div className="content" key={data.id}>
@@ -72,6 +82,7 @@ class App extends React.Component {
           </div>
         )}
       </div>
+    </div>
     );
   }
 }
