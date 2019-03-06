@@ -1,0 +1,198 @@
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.detailed {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.about {
+    display: flex;
+    flex-basis: 20%;
+    background-color: white;
+    margin: 10px 0px;
+}
+.about-course {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-right:  3px solid black;
+    word-wrap: break-word; /* Перенос слов */ 
+}
+
+.course {
+    width: 330px;
+    word-wrap: break-word; /* Перенос слов */ 
+}
+.logo_course {
+    float: left;
+    width: 110px;
+    height: 110px;
+    background-color: #FFFFFF;
+    margin: 35px;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 1200px)  and (max-width: 1250px) {
+   .test {
+    width: 79.4%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+@media (min-width: 1250px)  and (max-width: 1300px) {
+   .test {
+    width: 80%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+@media (min-width: 1300px)  and (max-width: 1350px) {
+   .test {
+    width: 80.9%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+@media (min-width: 1350px)  and (max-width: 1400px) {
+   .test {
+    width: 81.6%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+
+@media (min-width: 1400px)  and (max-width: 1450px) {
+   .test {
+    width: 82.5%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+
+@media (min-width: 1450px)  and (max-width: 1500px) {
+   .test {
+    width: 83%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+
+@media (min-width: 1450px)  and (max-width: 1500px) {
+   .test {
+    width: 83.7%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+} 
+
+@media (min-width: 1550px)  and (max-width: 1600px) {
+   .test {
+    width: 84.7%;
+    background-color: #BEBEBE !important;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+	}
+}
+.contact-tip {
+    width: 500px;
+    word-wrap: break-word; /* Перенос слов */ 
+}
+.menu-content {
+    flex:1 1 20%;
+    float: left;
+}
+
+.course {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.status {
+    margin-bottom: 15px;
+    color: green;
+}
+.Contacts {
+    flex-basis: 50%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding-left: 30px;
+    max-height: 350px;
+}
+.description {
+    flex-basis: 20%;
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+}
+
+.description h3 {
+    margin: 30px;
+}
+
+.description-course {
+    margin: 30px 20px 30px 30px;
+    padding: 0px 20px 20px 0px;
+    word-wrap: break-word; /* Перенос слов */ 
+}
+.logo_neobis-block {
+    height: 42px;
+}
+.logo_neobis {
+    width: 86px;
+    height: 28px;
+    float: right;
+    margin-right: 20px;
+}
+.main {
+    flex-basis: 80%;
+    background-color: white;
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.square {
+    margin: 40px 30px 0px 30px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.list {
+    border-left: 3px solid black;
+    margin-bottom: 50px;
+}
+.main .title {
+    margin-left: 0px;
+    flex-basis: 100%;
+}
