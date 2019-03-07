@@ -65,29 +65,85 @@ body, html {
     width: 100%;
 }
 
-@media screen and (max-width: 1360px) {
-    .wrapper {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        margin: 0px auto;
-        max-width: 1360px;
-        width: 100%;
-    }
+
+@media (min-width: 1200px)  and (max-width: 1250px) {
+   .test {
+    width: 79.4%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
 }
+
+@media (min-width: 1250px)  and (max-width: 1300px) {
+   .test {
+    width: 80%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+@media (min-width: 1300px)  and (max-width: 1350px) {
+   .test {
+    width: 80.9%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+@media (min-width: 1350px)  and (max-width: 1400px) {
+   .test {
+    width: 81.6%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+
+@media (min-width: 1400px)  and (max-width: 1450px) {
+   .test {
+    width: 82.5%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+
+@media (min-width: 1450px)  and (max-width: 1500px) {
+   .test {
+    width: 83%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+@media (min-width: 1450px)  and (max-width: 1500px) {
+   .test {
+    width: 83.7%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+} 
+
+@media (min-width: 1550px)  and (max-width: 1600px) {
+   .test {
+    width: 84.7%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
+@media screen and (max-width: 3200px) {
+   .test {
+    width: 83.5%;
+    background-color: #BEBEBE !important;
+    float: right;
+	}
+}
+
 .main {
     flex:5 1 83%;
     float: right;
 }
-
-.test {
-    width: 81.5%;
-    background-color: #BEBEBE !important;
-    float: right;
-    background-color: white;
-    padding: 0px 20px 20px 20px;
-}
-
 .menu-content {
     flex:1 1 20%;
     float: left;

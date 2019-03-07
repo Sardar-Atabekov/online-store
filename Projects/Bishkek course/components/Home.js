@@ -29,8 +29,9 @@ class Home extends Component {
                  <div className="logo_neobis-block">
                         <img className="logo_neobis" src={neobis} alt="neobis"/>
                 </div>
-                <SearchField/>
+                
                 <div className="test">
+                <SearchField/>
                     <div id='container' className='main' key={data.id}>
                         {data.map((data)  =>
                             <div className="content" key={data.id}>
