@@ -30,14 +30,15 @@ html {
 
 }
 .menu {
-     position: fixed;
-     margin: 0;
-     padding: 0;
-     height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: #6849A6;
-     backdrop-filter: blur(4px);
-     font-size: 18px;
- }
+    backdrop-filter: blur(4px);
+    font-size: 18px;
+    width: 20%;
+}
 
 .logo {
     color: #ffffff;
@@ -107,4 +108,3 @@ html {
     font-size: 18px;
     width: 100%;
 }
-

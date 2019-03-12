@@ -1,4 +1,3 @@
-/*Content css*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body, html {
@@ -11,7 +10,9 @@ body, html {
     line-height: normal;
     font-family: Roboto;
 }
-
+.menu-block {
+    width: 20%;
+}
 
 #container {
     display: grid;
@@ -40,7 +41,7 @@ body, html {
 .search {
     float: left;
     margin-left: 20px;
-    width: 100px;
+    width: 100%;
     height: 20px;
     margin-top: 20px;
 }
@@ -63,81 +64,6 @@ body, html {
     margin: 0px auto;
     max-width: 100%;
     width: 100%;
-}
-
-
-@media (min-width: 1200px)  and (max-width: 1250px) {
-   .test {
-    width: 79.4%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1250px)  and (max-width: 1300px) {
-   .test {
-    width: 80%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1300px)  and (max-width: 1350px) {
-   .test {
-    width: 80.9%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1350px)  and (max-width: 1400px) {
-   .test {
-    width: 81.6%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-
-@media (min-width: 1400px)  and (max-width: 1450px) {
-   .test {
-    width: 82.5%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-
-@media (min-width: 1450px)  and (max-width: 1500px) {
-   .test {
-    width: 83%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1450px)  and (max-width: 1500px) {
-   .test {
-    width: 83.7%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-} 
-
-@media (min-width: 1550px)  and (max-width: 1600px) {
-   .test {
-    width: 84.7%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media screen and (max-width: 3200px) {
-   .test {
-    width: 83.5%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
 }
 
 .main {
@@ -168,7 +94,13 @@ body, html {
 
 .title {
     font-size:1em;
-    padding-left: 15px;
+    padding-left: 20px;
     margin: 5px;
 }
 
+.test {
+    width: 80%;
+    background-color: #BEBEBE !important;
+    float: right;
+    padding: 0px 20px 20px 30px;
+}

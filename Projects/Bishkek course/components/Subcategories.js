@@ -22,16 +22,14 @@ class Subcategories extends Component {
 
     render() {
         const { subcategory } = this.state;
-        console.log(subcategory);
 
         return (
             <div>
-                <Navigation/>
+                <Navigation className={"menu-block"}/>
                 <div className="logo_neobis-block">
                     <img className="logo_neobis" src={neobis} alt="neobis"/>
                 </div>
                 <div className="test">
-
                 <SearchField/>
                     <div id='container' className='main' key={subcategory.id}>
                         {subcategory.map((data)  =>

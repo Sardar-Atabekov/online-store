@@ -28,42 +28,40 @@ class AboutCourse extends Component {
         console.log(data);
         return (
             <div>
-                <div className="menu-content">
-                    <Navigation/>
-                </div>
+                <Navigation className={"menu-block"}/>
                 <div className="logo_neobis-block">
                     <img className="logo_neobis" src={neobis} alt="neobis"/>
                 </div>
                 <div className="test">
-                    <div className="detailed course-content">
-                        <article className="about">
-                            <div className="about-course">
-                                <img className="logo_course" src={data.logo_image_url} />
-                                <div className="course">
-                                    <h3 className="title-course">{data.title}</h3>
-                                    <div className="status">{data.status}</div>
-                                    <div> Добавлен <span>{data.added} </span> </div>
-                                    <div> Обновлен <span>{data.updated}</span> </div>
-                                </div>
-                            </div>
-                            <div className="Contacts">
-                                {this.state.contacts && this.state.contacts.map((contact) => {
-                                    return (
-                                        <div className="contact-type" key={contact.type}>
-                                                <p>{contact.type}</p>
-                                                <p>{contact.contact}</p>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        </article>
-                        <article className="description">
-                            <h3>Описания</h3>
-                            <div className="description-course">
-                                {data.description}
-                            </div>
-                        </article>
+            <div className="detailed course-content">
+                <article className="about">
+                    <div className="about-course">
+                        <img className="logo_course" src={data.logo_image_url} />
+                        <div className="course">
+                            <h3 className="title">{data.title}</h3>
+                            <div className="status">{data.status}</div>
+                            <div> Добавлен <span>{data.added} </span> </div>
+                            <div> Обновлен <span>{data.updated}</span> </div>
+                        </div>
                     </div>
+                    <div className="Contacts">
+                        {this.state.contacts && this.state.contacts.map((contact) => {
+                            return (
+                                <div key={contact.type}>
+                                    <p>{contact.type}</p>
+                                    <p>{contact.contact}</p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </article>
+                <article className="description">
+                    <h3>Описания</h3>
+                    <div className="description-course">
+                        {data.description}
+                    </div>
+                </article>
+            </div>
                 </div>
             </div>
         );

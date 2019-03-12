@@ -2,6 +2,11 @@
     float: right;
     width: 100%;
 }
+input .icon{
+    background: url(/src/components/css/logo/search.png) no-repeat center left;
+    height: 5px;
+    width: 5x;
+}
 .search_input {
     width: 252px;
     height: 30px;
@@ -11,12 +16,14 @@
     color: white;
     margin-top: 20px;
 }
-
 input[type="search"]::-webkit-input-placeholder {
     color: white;
 }
 input[type="search"]::-moz-placeholder {
     color: white;
+}
+.btn {
+    display: none;
 }
 .request-btn {
     width: 160px;
@@ -31,7 +38,7 @@ input[type="search"]::-moz-placeholder {
 .search_block {
     height: 100px;
     background: #BEBEBE;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 .btn-text {
     color: white;

@@ -29,24 +29,23 @@ class AboutUniversity extends Component {
         console.log(data);
         return (
             <div>
-                	<Navigation/>
-
+                <Navigation className={"menu-block"}/>
                 <div className="logo_neobis-block">
                     <img className="logo_neobis" src={neobis} alt="neobis"/>
                 </div>
                 <div className="test">
-                	<div className="detailed course-content">
+                <div className="detailed course-content">
                     <article className="about">
                         <div className="about-course">
                             <img className="logo_course" src={data.logo_image_url} />
                             <div className="course">
-	                            <h3 className="title">{data.title}</h3>
-                     	    </div>
+                                <h3 className="title">{data.title}</h3>
+                            </div>
                         </div>
                         <div className="Contacts">
                             {this.state.contacts && this.state.contacts.map((contact) => {
                                 return (
-                                    <div className="contact-type" key={contact.type}>
+                                    <div key={contact.type}>
                                         <p>{contact.type}</p>
                                         <p>{contact.contact}</p>
                                     </div>

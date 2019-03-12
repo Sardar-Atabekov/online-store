@@ -30,8 +30,8 @@ class Navigation extends Component {
 
         return (
             <div className="menu">
-                <Link to={'/home'}> <h1 className="logo"><img src={rocket} className="bc_logo" />BishkekCourses</h1></Link>
-                <Menu mode="vertical" className="all-categories" style={{ width: 257,  background:6849}}>
+                <Link to={'/'}> <h1 className="logo"><img src={rocket} className="bc_logo" />BishkekCourses</h1></Link>
+                <Menu mode="vertical" className="all-categories" style={{ background:6849}}>
                     {titles.map((one)=>{
                         return(
                             <SubMenu className="titles" key={one.id} title={<Link to={{pathname: `/courses/${one.id}/`}} className="one-title">{one.title}</Link>} >

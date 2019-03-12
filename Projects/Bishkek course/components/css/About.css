@@ -1,4 +1,3 @@
-
 .wrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -25,12 +24,12 @@
     margin-bottom: 30px;
     margin-top: 30px;
     border-right:  3px solid black;
-    word-wrap: break-word; /* Перенос слов */ 
+    word-wrap: break-word; /* Перенос слов */
 }
 
 .course {
     width: 330px;
-    word-wrap: break-word; /* Перенос слов */ 
+    word-wrap: break-word; /* Перенос слов */
 }
 .logo_course {
     float: left;
@@ -42,93 +41,23 @@
 }
 
 
-@media (min-width: 1200px)  and (max-width: 1250px) {
-   .test {
-    width: 79.4%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
 
-@media (min-width: 1250px)  and (max-width: 1300px) {
-   .test {
+.test {
     width: 80%;
     background-color: #BEBEBE !important;
     float: right;
-	}
+    padding: 0px 20px 20px 30px;
 }
-
-@media (min-width: 1300px)  and (max-width: 1350px) {
-   .test {
-    width: 80.9%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1350px)  and (max-width: 1400px) {
-   .test {
-    width: 81.6%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-
-@media (min-width: 1400px)  and (max-width: 1450px) {
-   .test {
-    width: 82.5%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-
-@media (min-width: 1450px)  and (max-width: 1500px) {
-   .test {
-    width: 83%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media (min-width: 1450px)  and (max-width: 1500px) {
-   .test {
-    width: 83.7%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-} 
-
-@media (min-width: 1550px)  and (max-width: 1600px) {
-   .test {
-    width: 84.7%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
-@media screen and (max-width: 3200px) {
-   .test {
-    width: 83.5%;
-    background-color: #BEBEBE !important;
-    float: right;
-	}
-}
-
 .contact-tip {
     width: 500px;
-    word-wrap: break-word; /* Перенос слов */ 
-}
-.menu-content {
-    flex:1 1 20%;
-    float: left;
+    word-wrap: break-word; /* Перенос слов */
 }
 
 .course {
     margin-top: 20px;
     padding-left: 20px;
 }
+
 .status {
     margin-bottom: 15px;
     color: green;
@@ -154,7 +83,7 @@
 .description-course {
     margin: 30px 20px 30px 30px;
     padding: 0px 20px 20px 0px;
-    word-wrap: break-word; /* Перенос слов */ 
+    word-wrap: break-word; /* Перенос слов */
 }
 .logo_neobis-block {
     height: 42px;
@@ -171,7 +100,6 @@
     margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 20px;
 }
 
 
