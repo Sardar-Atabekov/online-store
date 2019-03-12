@@ -17,7 +17,7 @@
     display: flex;
     flex-basis: 20%;
     background-color: white;
-    margin: 10px 0px;
+    margin: 15px 0px 10px 0px;
 }
 .about-course {
     flex-basis: 50%;
@@ -40,21 +40,20 @@
     border-radius: 50%;
 }
 
-
-
 .test {
     width: 80%;
     background-color: #BEBEBE !important;
     float: right;
     padding: 0px 20px 20px 30px;
 }
+
 .contact-tip {
     width: 500px;
     word-wrap: break-word; /* Перенос слов */
 }
 
 .course {
-    margin-top: 20px;
+    margin-top: 40px;
     padding-left: 20px;
 }
 
@@ -62,6 +61,7 @@
     margin-bottom: 15px;
     color: green;
 }
+
 .Contacts {
     flex-basis: 50%;
     margin-bottom: 40px;
@@ -69,6 +69,7 @@
     padding-left: 30px;
     max-height: 350px;
 }
+
 .description {
     flex-basis: 20%;
     margin: 10px 0px;
@@ -100,6 +101,7 @@
     margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
+    padding: 0px 20px;
 }
 
 

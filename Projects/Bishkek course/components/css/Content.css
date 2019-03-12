@@ -10,9 +10,6 @@ body, html {
     line-height: normal;
     font-family: Roboto;
 }
-.menu-block {
-    width: 20%;
-}
 
 #container {
     display: grid;
@@ -67,13 +64,10 @@ body, html {
 }
 
 .main {
-    flex:5 1 83%;
+    flex:5 1 80%;
     float: right;
 }
-.menu-content {
-    flex:1 1 20%;
-    float: left;
-}
+
 .description_content {
     font-style: normal;
     font-weight: normal;

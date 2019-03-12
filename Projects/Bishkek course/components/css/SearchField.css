@@ -16,6 +16,7 @@ input .icon{
     color: white;
     margin-top: 20px;
 }
+
 input[type="search"]::-webkit-input-placeholder {
     color: white;
 }
@@ -35,14 +36,17 @@ input[type="search"]::-moz-placeholder {
     color: white;
     border: 1px solid #6849A6;
 }
+
 .search_block {
     height: 100px;
     background: #BEBEBE;
     padding: 0 10px;
 }
+
 .btn-text {
     color: white;
 }
+
 .result-search {
     font-size: 18px;
     margin: 10px 0px 0px 10px;

@@ -29,7 +29,7 @@ class AboutUniversity extends Component {
         console.log(data);
         return (
             <div>
-                <Navigation className={"menu-block"}/>
+                <Navigation/>
                 <div className="logo_neobis-block">
                     <img className="logo_neobis" src={neobis} alt="neobis"/>
                 </div>
