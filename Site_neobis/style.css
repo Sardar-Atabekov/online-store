@@ -1,0 +1,315 @@
+
+* {
+	box-sizing: border-box;
+    padding: 0;
+    outline: none;
+	font-family: Roboto;
+}
+
+html,
+body,
+.wrapper {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #1f1f24;
+	background: #E5E5E5;
+}
+
+
+.wrapper {
+	overflow-x: hidden;
+	position: relative;
+	margin: 0px auto;
+	max-width: 1520px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+
+/* Header */
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul,ol {
+	list-style: none;
+	padding: 0px;
+}
+
+.header {
+	width: 100%;
+	margin: 30px ;
+}
+
+.header__container {
+	display: flex;
+}
+.menu-nav {
+	margin-right: 40px;
+}
+.header
+.menu-nav__link {
+	display: inline-block;
+	color: #1f1f24;
+	line-height: 1.6em;
+	border-bottom: 1px solid transparent;
+	transition-duration: .3s;
+	transition-property: color, border-color;
+	padding: 0 15px;
+}
+
+
+.header .menu-nav__list {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-nav__list .menu-nav__item {
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.header .logo-neobis {
+	flex:1;
+	align-self: flex-start;
+}
+
+
+.active {
+	background: #32B482;
+	box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+	border-radius: 3px;
+	color: white !important;
+}
+
+
+/*  main */
+
+.main {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+
+/* info */
+
+
+.info {
+	display: flex;
+	padding: 40px 30px 40px 100px;
+}
+
+.info .title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.tags {
+	height: 21.12px;
+	font-weight: bold;
+	font-size: 12.96px;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 100px;
+	font-style: italic;
+}
+
+.description {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 10px;
+	margin-right:  13px;
+}
+
+.btn {
+	margin: 30px 0px;
+	padding: 10px 20px;
+	text-align: center;
+	font-weight: 800;
+	font-family: Raleway;
+	font-size: 16px;
+	border-radius: 5px;
+	color: black;
+}
+
+.read-more {
+background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF);
+background: linear-gradient(to top, #FFFFFF, #FFFFFF);
+	box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);	
+	padding: 10px 25px;
+}
+
+.read-more a {
+	color: black;
+}
+
+/* About-course */
+
+.about-course {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 40px 30px 40px 100px;
+}
+
+.title {
+	text-align: center;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 34px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-course .description, .subtitle {
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.about-course  .stage-plan {
+  counter-reset: myCounter;
+  padding: 0px;
+}
+
+.about-course .stage-plan__item {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	color: #32B482;
+	padding:  10px;
+	list-style: none;
+}
+
+ 
+.about-course  .stage-plan__item:before {
+  counter-increment: myCounter;
+  content:counter(myCounter);
+  color: white;
+  background: black;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 35px 5px 0px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+} 
+
+.form-course {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 40px 0px 40px 100px;
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-left: 15%;
+}
+
+.block-form {
+	display: flex;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.form-course .form__input {
+	width: 400px;
+	height: 50px;
+	margin-top: 16px;
+    padding: 1.1em 1em;
+    font-size: 1.125rem;
+    line-height: 1em;
+    border: 2px solid #dce0eb;
+    color: #1f1f24;
+    outline: none;
+}
+
+.block-form .btn {
+	width: 300px;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.cost-course {
+	margin:50px 45% 70px 15%;
+}
+
+.cost-course .money {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	margin: 5px;
+	color: #32B482;
+}
+
+.cost-course .currency {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.footer {
+	display: flex;
+	background: #202020;
+	width: 100%;
+	height: 150px;
+	color: white;
+}
+
+.btn-top {
+	margin:60px 0px 50px 30px;
+	padding: 10px 5px 5px 5px;
+}
+.btn-top__img {
+	text-align: center;
+}
+
+.neobis_logo_footer {
+	margin: 50px 50px 60px 20%;
+}
+
+.footer .our_email {
+	width: 250px; /* Ширина блока */
+    padding: 10px; /* Поля */
+	font-size: 19px;
+	line-height: 27px;
+    word-wrap: break-word; /* Перенос слов */
+    margin: 3% 5%;
+}
+
+.footer .our_tel_number {
+	width: 200px; /* Ширина блока */
+    padding: 10px; /* Поля */
+	font-size: 19px;
+	line-height: 27px;
+    word-wrap: break-word; /* Перенос слов */
+    margin: 3% 5%;
+}

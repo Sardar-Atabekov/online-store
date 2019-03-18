@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Site </title>
+	<meta name="viewport" content="width=device-width,  maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="root">
+      <!-- Все компоненты должны быть внутри diva с классом wrapper--->
+	<!--Вот так
+		<div class="wrapper">
+			<Component>
+				...
+		</div>
+
+	-->
+      <!-- Пожалуйста просто так не измените структуры верстку -->
+	    <div class="wrapper">
+            <header class="header" id="header">
+          	    <div class="header__container">
+					<a class="menu-nav__link logo-neobis" href="#">
+						<img src="img/logo-neobis.png" >
+					</a>
+					<nav class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">О нас</a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">Клуб программирования</a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">Мероприятия</a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link  active" href="#">Курсы</a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">Блог </a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">Сотрудничество</a>
+							</li>
+							<li class="menu-nav__item">
+								<a class="menu-nav__link" href="#">Контакты </a>
+							</li>
+						</ul>
+					</nav>
+	
+				
+			    </div>
+            </header>
+          	<main class="main">
+          		<div class="info">
+          			<div class="description-content">
+          				<span class="tags active">КУРСЫ </span>
+          				<h1 class="title">JAVABASIC</h1>
+          				<div class="description">
+          					Java - является самым популярным языком программирования в мире. Пройдя 6-месячный онлайн курс вы сможете освоить профессию Android-разработчика и стать одним из самых востребованных программистов на рынке IT, а мы поможем вам трудоустроиться. 
+          				</div>
+          				<button class="btn active"><a href="#form-course">ЗАПИСАТЬСЯ</a></button><br>
+          				<button class="btn read-more"><a href="#read-more">ПОДРОБНЕЕ</a></button><br>
+          				<p class="start_course"> Старт: 23 февраля 2019</p>
+          				<p class="duration_course">Длительность: 5 недель</p>
+          				<p class="schedule_course">Расписание: вт - 18.30 | чт - 18.30.</p>
+
+          			</div>
+          			<div class="photo-course">
+          				<img src="img/photo course.png">
+          			</div>          			
+          		</div>
+          		<div class="about-course" id="read-more">
+          			<h1 class="title">О Курсах</h1>
+          			<div class="description">Java[прим. 1] — сильно типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре с помощью виртуальной Java-машины. Дата официального выпуска — 23 мая 1995 года. На 2018 год Java — один из самых популярных языков программирования[11][12]</div>
+          			<ol class="stage-plan">
+          				<li class="stage-plan__item">План обучения составленный NeoLabs, авторская программа</li>
+          				<li class="stage-plan__item">Выполнение заданий, решение задач по темам и теориям, 80% практики </li>
+          				<li class="stage-plan__item">Видеоуроки и живые трансляции </li>
+          				<li class="stage-plan__item">Проверка знаний при переходе на следующий уровень обучения</li>
+          				<li class="stage-plan__item">Сертификат, подтверждающий ваши знания Бонусы </li>
+          			</ol>
+          		</div>
+          		<div class="form-course" id="form-course">
+          			<h1 class="title">Запись на курс </h1>
+					<div class="subtitle">Оставьте свои контакты и мы с вами свяжемся!</div>
+					<div class="block-form">
+	          			<form action="index.php" method="post" name="application" autocomplete="on"  enctype="text/plain" class="form">
+							<input type="text" id="name" name="name" placeholder="Ваше имя" required class="form__input">
+							<input type="text" id="surname"  name="surname" placeholder="Фамилия " class="form__input" required>
+							<input type="tel" id="phone" name="phone" 
+							      placeholder="+996" required class="form__input">
+							<input type="email" id="email"
+	       						 size="30" required placeholder="Почта" class="form__input">
+							<button type="submit" class="active btn">ЗАПИСАТЬСЯ И ОПЛАТИТЬ </button>
+						</form>
+						<div class="cost-course">
+							<h1 class="money">10000 </h1>
+							<h2 class="currency"> СОМ </h2>
+							<div class="caption-cost-course">Стоимость курса</div>
+						</div>
+					</div>
+          		</div>
+          	</main>
+          	<footer class="footer">
+          		<a href="#header" class="btn btn-top active">
+          			<img src="img/btn top.png" class="btn-top__img">
+          		</a>
+          		<div class="neobis_logo_footer">
+          			<img src="img/neobis_logo_footer.png" style="width: 200px; height: 40px;">
+          		</div>
+          		<div class="our_email">
+          			Наша почта: neolabs@gmail.com 
+          		</div>
+          		<div class="our_tel_number">
+          			Наш телефон: 0554112233
+          		</div>
+
+          	</footer>
+	    </div>
+  </div>
+</body>
+</html>
+
