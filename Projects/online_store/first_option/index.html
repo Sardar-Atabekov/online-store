@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Site </title>
+	<meta name="viewport" content="width=device-width,  maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="root">
+      <!-- Все компоненты должны быть внутри diva с классом wrapper--->
+	<!--Вот так
+		<div class="wrapper">
+			<Component>
+				...
+		</div>
+
+	-->
+      <!-- Пожалуйста просто так не измените структуры верстку -->
+	    <div class="wrapper">
+            <header class="header" id="header">
+            	<div class="message">
+            		<span class="message-item icon-1">Быстрая доставка</span>
+            		<span class="message-item icon-2">Безопасно для здоровья </span>
+            		<span class="message-item icon-3">Оплата у порога</span>
+
+            	</div>
+          	    <div class="header__container">
+          	    	
+						<input id="menu__toggle" type="checkbox" />
+						    <label class="menu__btn" for="menu__toggle">
+						      <span></span>
+						    </label>
+					<div class="logo title">
+						ЭПОТАЖ
+					</div>
+					<img src="images/Vector.png" class="search-img">    
+					
+				
+			    </div>
+			    <ul class="menu__box">
+					
+				</ul>
+            </header>
+
+          	<main class="main">
+          		<div class="slider-banner active" id="photo">
+					<div class="wrap">
+							<div class="slider-item fade">
+								<img src="img/black-friday-fashion-friends-1345082.png" alt="slider">
+								<div class="discount-content">
+									<h3 class="discount-title">Black Friday </h3>
+									<h2 class="discount-percent"> 20-35% </h2>
+								</div>
+							</div>
+							<div class="slider-item fade">
+								<img src="img/blackfridayanuncios.jpg" alt="slider">
+								<div class="discount-content">
+									<h3 class="discount-title">Black Friday </h3>
+									<h2 class="discount-percent"> 20-40% </h2>
+								</div>
+							</div>
+							<div class="slider-item fade">
+								<img src="img/365-hero-lg.fit_limit.size_800x450.v_1549049307.jpg" alt="slider">
+								<div class="discount-content">
+									<h3 class="discount-title">Black Friday </h3>
+									<h2 class="discount-percent"> 10-20% </h2>
+								</div>
+							</div>
+							<div class="slider-item fade">
+								<img src="img/Black-friday-shopping-920x518.jpg" alt="slider">
+								<div class="discount-content">
+									<h3 class="discount-title">Black Friday </h3>
+									<h2 class="discount-percent"> 10-15% </h2>
+								</div>
+							</div>
+							<div class="slider-item fade">
+								<img src="img/6x3_BlackFriday_OR.jpg" alt="slider">
+								<div class="discount-content">
+									<h3 class="discount-title">Black Friday </h3>
+									<h2 class="discount-percent"> 20-25% </h2>
+								</div>
+							</div>
+							<div class="slider-dots">
+								<div class="dot dot-active"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+							</div>
+					</div>
+				</div>
+				<div class="content active">
+					<h1 class="title set-content__title">Наборы и скидки</h1>
+		        		<div class="first-row set-content">
+		        			<div class="prev-slide"></div>
+		        			<div class="slider-set">
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/blue-contemporary-facial-expression-1036622.png" class="set-img">
+		        						<h2 class="title">Набор №1</h2>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/adult-beard-cement-845434.png" class="set-img">
+		        						<h2 class="title">Набор №2</h2>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/attractive-beautiful-chair-1070030.png" class="set-img">
+		        						<h2 class="title">Набор №3</h2>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/close-up-colors-compact-mirror-1898290.png" class="set-img">
+		        						<h2 class="title">Набор №4</h2>
+		        					</a>
+		        				</div>
+		        			</div>
+		        			<div class="next-slide"></div>
+		        			</div>
+		        		</div>
+		        		<div class="seconf-row set-content">
+		        			<div class="prev-slide"></div>
+		        			<div class="slider-set">
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/beautiful-woman-liquid-make-up-1776318.png" class="set-img">
+		        						<div class="description">
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<h2 class="title">Набор для макияжа Gioliani Gold </h2>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        						</div>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/beautiful-woman-liquid-make-up-1776318.png" class="set-img">
+		        						<div class="description">
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<h2 class="title">Набор для макияжа Gioliani Gold </h2>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        						</div>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/beautiful-woman-liquid-make-up-1776318.png" class="set-img">
+		        						<div class="description">
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<h2 class="title">Набор для макияжа Gioliani Gold </h2>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        						</div>
+		        					</a>
+		        				</div>
+		        				<div class="set-item">
+		        					<a href="#">
+		        						<img src="img/beautiful-woman-liquid-make-up-1776318.png" class="set-img">
+		        						<div class="description">
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<h2 class="title">Набор для макияжа Gioliani Gold </h2>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        						</div>
+		        					</a>
+		        				</div>
+		        			</div>
+		        			<div class="next-slide"></div>
+		        		</div>
+		        		
+		        	<h1 class="title set-content__title">Популярные товары</h1>
+		        	<div class="popular-goods__content"> 
+		        		<div class="popular-goods"> 
+						<div class="item">
+							<a href="#">
+								<img src="images/accessory-background-beauty-988863.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/adult-applying-blush-1332186.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/adult-beauty-cosmetic-1029896.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/background-brand-chanel-1470165.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/beauty-close-up-cosmetics-1615017.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/bottle-brush-close-to-755993.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/bottle-brush-close-up-791157.png"  class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="images/cosmetic-eyeshadow-make-up-208052.png" class="foto">
+		        						<div class="description">
+		        							<h2 class="name-product">Gioliani Gold </h2>
+		        							<h2 class="product-type">Набор для макияжа</h2>
+		        							<span class="discount-price">291,00 KGS</span>
+		        							<span class="price-product">330,00 KGS </span>
+		        							<div class="feedbacks">
+		        								<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-good"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+			        							<div class="feedback  feedback-bad"> </div>
+		        							</div>
+		        				</div>
+		        				<img src="icons/like.svg" class="like-img">
+							</a>
+						</div>
+					  </div>
+		        	</div>
+				<div class="content-category">
+					<div class="navigation">
+	          			<div class="home">Home</div>
+	          			<div class="arrow"></div>
+	          			<div class="category">Макияж</div>
+	          		</div>
+				</div>
+          	</main>
+          	<footer class="footer">
+          		<div class="social-networks-content">
+          			<h1 class="title">Мы в социальных сетях </h1>
+          			<div class="social-networks-link">
+          				<a href=""><img src="images/Vector (2).png"></a>
+          				<a href=""><img src="images/Vector (1).png"></a>
+          				<a href=""><img src="images/Vector (3).png"></a>
+          			</div>
+          			<ul class="footer-links">
+          						<li><a href="#">Доставка</a></li>
+          						<li><a href="#">О нас </a></li>
+          						<li><a href="#">Помощь</a></li>
+          						<li><a href="#">Вернуть покупку</a></li>
+          						
+          			</ul>
+          			<div class="connection">
+          				Как связаться с нами Tel: 844-433-5143 <br>Location: Bishkek Manas avenue 110a    <span>Gmail: epotaj.com@gmail.com </span><br>Monday to Thursday: 6am - 9pm MDT <span>Friday: 6am - 5pm MDT</span><br> Saturday: 8am - 12pm MDT <span class="span-3">Sunday: Closed</span>
+          			</div>
+          		</div>
+        	</footer>   
+	    </div>
+  </div>
+   <script src="script.js"></script>  
+</body>
+</html>
+
