@@ -74,8 +74,17 @@ window.addEventListener('DOMContentLoaded', function () {
 		});
 	
 
-	
+		
 
-	
+		//	Like 
 
+		let likeBtn = document.querySelectorAll('.popular-goods__content  .like-img');
+		console.log(likeBtn);
+
+
+		for (let i = 0; i < likeBtn.length; i++) {
+			likeBtn[i].addEventListener('click', function(){
+				likeBtn[i].classList.toggle("like-active");		
+			});
+		}
 });
